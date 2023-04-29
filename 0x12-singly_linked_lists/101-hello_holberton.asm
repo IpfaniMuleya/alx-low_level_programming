@@ -10,6 +10,7 @@ main:
 	push rbp
 	mov rbp, rsp
 
+	; call printf with the address of the string to print
 	mov rdi, message
 	xor eax, eax
 	call printf
